@@ -1,0 +1,19 @@
+plugins {
+    // Apply the java-library plugin to add support for Java Library
+    //id 'java-library'
+    id 'java'
+    id 'eclipse'
+    id 'application'
+}
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    // Use jcenter for resolving your dependencies.
+    // You can declare any Maven/Ivy/file repository here.
+    mavenCentral()
+    //jcenter()
+}
+
+dependencies {
+    compile 'cglib:cglib:3.3.0'
+}
