@@ -27,3 +27,6 @@ An upgraded version of **factory method pattern**. Factory method pattern only p
 + **jdk based observer pattern**, java provides an inbuilt platform for implementing Observer pattern through `java.util.Observable` class and `java.util.Observer` interface. However, it’s not widely used because the implementation is really simple and most of the times we customize my own interfaces and implement them,namely *customized observer pattern*.
 
 + **customized observer pattern**, we would implement a simple subejct and observers can register to this subejct.
+
+### 6. Decorator
+The Decorator Pattern uses composition instead of inheritance to extend the functionality of an object at runtime. At the same time, other instances of the same class will not be affected by this, so individual object gets the modified behavior.
